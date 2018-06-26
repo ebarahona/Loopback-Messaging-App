@@ -23,7 +23,8 @@
     "shuffle": "~0.2.1",
     "strong-start": "~1.3.2",
     "text-table": "~0.2.0",
-    "weighted": "~0.2.2"
+    "weighted": "~0.2.2",
+    "snyk": "^1.85.0"
   },
   "optionalDependencies": {
     "loopback-connector-mysql": "^1.2.1",
@@ -45,6 +46,9 @@
     "test": "mocha -R spec server/test",
     "pretest": "jshint .",
     "postinstall": "cd strong-resources && npm install",
-    "start": "node server/server.js"
-  }
+    "start": "node server/server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
