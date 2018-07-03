@@ -1,0 +1,31 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:http-signature:20150122':
+    - iron_worker > iron_core > request > http-signature:
+        patched: '2018-07-03T06:16:06.021Z'
+  'npm:lodash:20180130':
+    - strong-start > strong-pm > strong-mesh-models > lodash:
+        patched: '2018-07-03T06:16:06.021Z'
+    - strong-start > strong-deploy > strong-mesh-models > lodash:
+        patched: '2018-07-03T06:16:06.021Z'
+    - strong-start > strong-pm > lodash:
+        patched: '2018-07-03T06:16:06.021Z'
+    - strong-start > strong-pm > strong-service-install > lodash:
+        patched: '2018-07-03T06:16:06.021Z'
+    - strong-start > strong-pm > strong-service-install > strong-service-systemd > lodash:
+        patched: '2018-07-03T06:16:06.021Z'
+    - strong-start > lodash:
+        patched: '2018-07-03T06:16:06.021Z'
+    - strong-start > strong-pm > strong-docker-build > lodash:
+        patched: '2018-07-03T06:16:06.021Z'
+    - strong-start > strong-pm > strong-runner > lodash:
+        patched: '2018-07-03T06:16:06.021Z'
+    - strong-start > strong-pm > strong-runner > strong-supervisor > lodash:
+        patched: '2018-07-03T06:16:06.021Z'
+    - strong-start > strong-pm > strong-runner > strong-supervisor > strong-cluster-control > lodash:
+        patched: '2018-07-03T06:16:06.021Z'
+    - strong-start > strong-pm > strong-service-install > strong-service-upstart > lodash:
+        patched: '2018-07-03T06:16:06.021Z'
