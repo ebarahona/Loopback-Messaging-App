@@ -1,0 +1,247 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > send > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > express-session > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > express-session > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > finalhandler > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > finalhandler > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > morgan > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > body-parser > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > serve-index > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > serve-index > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > body-parser > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > compression > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > compression > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > connect-timeout > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > connect-timeout > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > morgan > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > serve-static > send > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > serve-static > send > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > express > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > express > finalhandler > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > express > send > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > express > serve-static > send > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > send > debug:
+        patched: '2019-05-07T03:24:35.896Z'
+  'npm:hawk:20160119':
+    - iron_worker > iron_core > request > hawk:
+        patched: '2019-05-07T03:24:35.896Z'
+  'npm:hoek:20180212':
+    - strong-start > strong-pm > loopback-connector-sqlite3 > sqlite3 > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - iron_worker > iron_core > request > hawk > boom > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - iron_worker > iron_core > request > hawk > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > loopback-connector-sqlite3 > sqlite3 > node-pre-gyp > hawk > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > sqlite3 > node-pre-gyp > hawk > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > loopback-connector-sqlite3 > sqlite3 > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > sqlite3 > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > sqlite3 > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > loopback-connector-sqlite3 > sqlite3 > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > sqlite3 > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > loopback-connector-sqlite3 > sqlite3 > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > loopback-connector-sqlite3 > sqlite3 > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > sqlite3 > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > sqlite3 > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > loopback-connector-sqlite3 > sqlite3 > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - iron_worker > iron_core > request > hawk > sntp > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > sqlite3 > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > loopback-connector-sqlite3 > sqlite3 > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > sqlite3 > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+    - iron_worker > iron_core > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-07T03:24:35.896Z'
+  'npm:http-signature:20150122':
+    - iron_worker > iron_core > request > http-signature:
+        patched: '2019-05-07T03:24:35.896Z'
+  'npm:lodash:20180130':
+    - strong-start > strong-pm > lodash:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > lodash:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-docker-build > lodash:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-service-install > lodash:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > lodash:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-runner > lodash:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-runner > strong-supervisor > lodash:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-service-install > strong-service-systemd > lodash:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-service-install > strong-service-upstart > lodash:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > lodash:
+        patched: '2019-05-07T03:24:35.896Z'
+  'npm:mime:20170907':
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > send > mime:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > send > mime:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > serve-static > send > mime:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > serve-static > send > mime:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > express > send > mime:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > swagger-ui > less > mime:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > swagger-ui > less > mime:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > express > serve-static > send > mime:
+        patched: '2019-05-07T03:24:35.896Z'
+  'npm:ms:20170412':
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > body-parser > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > connect-timeout > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > send > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > send > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > send > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > connect-timeout > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > connect-timeout > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > morgan > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > morgan > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > serve-index > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > serve-index > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > send > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > body-parser > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > compression > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > compression > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > connect-timeout > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > express-session > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > express-session > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > finalhandler > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > finalhandler > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > serve-static > send > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > serve-static > send > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > serve-static > send > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > serve-static > send > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > serve-favicon > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > serve-favicon > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+  'npm:ms:20151024':
+    - strong-start > strong-pm > minkelite > express > serve-static > send > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > express > send > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > express > serve-static > send > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > express > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > express > finalhandler > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > express > send > debug > ms:
+        patched: '2019-05-07T03:24:35.896Z'
+  'npm:negotiator:20160616':
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > compression > accepts > negotiator:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > express > connect > serve-index > accepts > negotiator:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > serve-index > accepts > negotiator:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > express > accepts > negotiator:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > express > connect > compression > accepts > negotiator:
+        patched: '2019-05-07T03:24:35.896Z'
+  'npm:request:20160119':
+    - iron_worker > iron_core > request:
+        patched: '2019-05-07T03:24:35.896Z'
+  'npm:semver:20150403':
+    - strong-start > strong-pm > strong-runner > strong-supervisor > strong-agent > semver:
+        patched: '2019-05-07T03:24:35.896Z'
+  'npm:send:20151103':
+    - strong-start > strong-pm > minkelite > express > send:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > minkelite > express > serve-static > send:
+        patched: '2019-05-07T03:24:35.896Z'
+  'npm:tunnel-agent:20170305':
+    - iron_worker > iron_core > request > tunnel-agent:
+        patched: '2019-05-07T03:24:35.896Z'
+  'npm:uglify-js:20151024':
+    - strong-start > strong-deploy > strong-mesh-models > loopback-explorer > swagger-ui > handlebars > uglify-js:
+        patched: '2019-05-07T03:24:35.896Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-explorer > swagger-ui > handlebars > uglify-js:
+        patched: '2019-05-07T03:24:35.896Z'
