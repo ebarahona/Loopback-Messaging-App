@@ -1,0 +1,296 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - loopback-component-explorer > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-boot > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-boot > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-datasource-juggler > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-mongodb > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-component-explorer > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-component-explorer > loopback-swagger > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > strong-remoting > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-remote > strong-remoting > jayson > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-mongodb > loopback-connector > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-datasource-juggler > loopback-connector > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-remote > strong-remoting > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-remote > strong-remoting > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > strong-remoting > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-remote > loopback-datasource-juggler > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > strong-remoting > jayson > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-phase > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-boot > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-mongodb > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-component-explorer > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-connector-remote > strong-remoting > jayson > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-connector-remote > strong-remoting > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > loopback-connector-sqlite3 > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-boot > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > strong-remoting > loopback-phase > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-runner > strong-supervisor > strong-cluster-control > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-datasource-juggler > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > loopback-connector-sqlite3 > loopback-connector > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-boot > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-boot > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-remote > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-component-explorer > loopback-swagger > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-mongodb > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-datasource-juggler > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-remote > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > strong-remoting > jayson > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > strong-remoting > jayson > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > strong-remoting > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-phase > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-phase > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > strong-remoting > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > strong-remoting > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > strong-remoting > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > loopback-connector-sqlite3 > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > strong-remoting > loopback-phase > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > loopback-connector-sqlite3 > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-mongodb > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-rest > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > jayson > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > jayson > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > strong-remoting > loopback-phase > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-remote > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-component-explorer > loopback-swagger > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-mongodb > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-remote > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > loopback-connector-sqlite3 > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > loopback-connector-sqlite3 > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-deploy > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
+    - strong-start > strong-pm > strong-mesh-models > loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-07-04T03:23:34.598Z'
