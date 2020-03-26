@@ -14,7 +14,7 @@
     "loopback": "^2.22.0",
     "loopback-boot": "^2.12.1",
     "loopback-component-explorer": "^2.1.0",
-    "loopback-connector-mongodb": "^1.13.3",
+    "loopback-connector-mongodb": "^3.4.0",
     "loopback-connector-remote": "^1.2.0",
     "loopback-connector-rest": "^1.1.4",
     "loopback-datasource-juggler": "^2.0.0",
