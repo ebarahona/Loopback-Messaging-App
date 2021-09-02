@@ -1,0 +1,8 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:semver:20150403':
+    - strong-start > strong-pm > strong-runner > strong-supervisor > strong-agent > semver:
+        patched: '2021-09-02T19:04:24.416Z'
